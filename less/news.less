@@ -1,0 +1,100 @@
+@import 'gong';    
+@import 'first';   
+body{ 
+    font-family: "宋体";
+} 
+.border{    
+    background: url(../img/line.jpg) repeat-x left bottom;
+}
+.border a{
+    color: #e90404;
+    font-size: 24px; 
+    font-family: "黑体";
+}
+.border>a:first-child{
+    text-align: center;
+}
+.border a:hover {
+    text-decoration: none;
+}
+.border>a:first-child>span{
+    padding-bottom: 7%;
+    border-bottom: 1px solid red;
+}
+p>span{
+    font-size: 18px;
+    font-weight: 100;
+    color: #000;
+}   
+p{
+    font-size: 18px;
+    line-height: 2;
+    color: #777774; 
+}
+h3{
+    font-family: '黑体'
+}
+.zhuti{
+    padding-top:4%;
+}    
+ @media screen and (max-width: 1000px){
+     .hei{
+         font-size: 18px;
+         line-height: 3;
+    }
+ }  
+
+ @media screen and (min-width: 1000px){
+     .hei{
+         font-size: 22px;
+         line-height: 4;
+    }
+ } 
+ .top_1{
+    padding: 0;
+}  
+  .top{
+     background:#ddd;
+     text-align: center;
+     margin: 1px;
+     padding: 0;
+ }        
+ .top a{
+    color: #000;
+    padding: 0;
+     text-decoration: none;
+     line-height: 2.5;
+ }
+ .top a:first-child{
+     border-bottom:1px solid red;
+ }
+ .tou{
+     padding: 0; 
+ }
+ .ko{
+    background:url(../img/heng_line.jpg) repeat-y 92% top;
+    background-origin: content-box;
+    background-clip:padding-box;
+}
+ /*.zhuti>div{
+     background:  repeat-y -9% 0;
+ }*/
+ .navbar-nav > li:nth-child(5) a{
+    color: red;
+}    
+.noop p{
+    color: #fff;
+    font-family: none;
+    font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+    h4{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+    }
+} 
+.navbar-nav > li:nth-child(1) a {
+    color: #333333;
+}

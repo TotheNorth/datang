@@ -1,0 +1,83 @@
+@import 'gong';     
+@import 'first'; 
+label.error{
+    display: block;
+    color: #ea563c;
+    font-size: 12px;
+    line-height: 23px;
+     margin-left: 20%;
+}
+label.error:before{
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    background:url(../img/close.png) no-repeat 0 0;
+}
+@media screen and (min-width: 768px){
+    #yanzheng input{
+    width: 80%;
+    float: right;
+    height: 40px;
+    }
+    #yanzheng span{
+    width: 20%;
+    }
+    #yanzheng div{
+    line-height: 40px;
+    margin-top: 1.5%;
+    }
+    #yanzheng select{
+    width: 80%;
+    float: right;
+    height: 40px;
+    }
+}
+@media screen and (max-width: 768px){
+    #yanzheng input{
+    width: 65%;
+    float: right;
+    height: 35px;
+    border: none;
+    padding-left: 5px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    }
+    #yanzheng span{
+    width: 35%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-right: 1px solid #e6e9ef;
+    } 
+    #yanzheng #submit{
+        margin-right: 20%;
+    }  
+    #yanzheng div{
+    line-height: 35px;
+    margin-top: 1.5%;
+    background: #fff;
+    }
+    body{
+        background: #eff2f7
+    }
+    #yanzheng select{
+    width: 65%;
+    float: right;
+    height: 35px;
+    padding-left: 5px;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    }
+}
+#submit{
+    background: red;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+h2{
+    text-align: center;
+}
